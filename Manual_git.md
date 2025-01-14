@@ -42,6 +42,14 @@ Abre tu archivo, en este caso prueba.java, realiza cambios en el archivo y guár
 Se añade de nuevo el archivo a la zona de preparación con git add prueba.java y se hace otra vez git commit -m "He agregado otra función al archivo prueba.java."
 Se suben los cambios al repositorio remoto con git push.
 
+## PASO 9: CREAR NUEVA RAMA Y HACER CAMBIOS
+Para crear una nueva rama, usa el siguiente comando:
+git checkout -b nueva-rama
+Agrega los archivos modificados: git add *
+Este comando lo que hace es agregar todos los archivos, no solo el que se ha modiificado.
+Realizamos un commit sobre los cambios: git commit -m "He añadido el archivo meteo.js en la rama creada."
+Para subir los cambios a la nueva rama en GitHub: git push -u origin nueva-rama
+
 ## ENLACE AL REPOSITORIO REMOTO
 https://github.com/SebastianPopescu17/ManualGIT.git
 
